@@ -1,0 +1,190 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+/*barra de menu*/
+.row1{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black ;
+    justify-content: space-around;
+    background-color: black;
+    margin-bottom: 8px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex: 2;
+    color: white;
+}
+.boton{
+    flex:1;
+    padding-top: 30px;
+}
+.items > h4{
+    padding-top: 15px;
+    
+}
+.registro{
+    margin-left: 250px;
+    font-family: 'Balsamiq Sans';
+    background-color: rgb(26, 176, 221);
+    border: 2px solid black;
+    color: white;
+    
+}
+.plomo{
+    color: rgb(199, 195, 195);
+}
+/*relleno*/
+.relleno{
+    display:flex;
+    flex-direction: row;
+}
+/*tarjeta de usuario and education*/
+/*tarjeta de usuario*/
+.row2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+    width:675px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.tarjetadeusuario{
+    border: 2px solid rgb(160, 160, 160);
+    width: 670px;
+    margin-bottom: 20px;
+    
+}
+.barra{
+    background-color: rgb(4, 160 , 160);
+    height: 70px;    
+}
+.barra > img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+.contenido{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.lugar{
+    width: 10px;
+    padding: 5px;
+}
+.tornillo{
+    width: 15px;
+    padding: 5px;
+}
+.ubr, .editar{
+    vertical-align: 7px;
+}
+.skiller{
+    margin-bottom: 5px;
+}
+.tituloUni{
+    margin-top: 0;
+}
+/* educatio*/
+.education{
+    border: 2px solid rgb(160, 160, 160);  
+    width: 670px;  
+    padding-top: 0;
+}
+.tituloeducacion{
+    background-color: grey;
+    height: 40px;  
+}
+.tituloeducacion > div {
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.parrafoeducacion{
+    padding-left: 20px;
+
+}
+.linea1{
+    margin-bottom: 5px;
+    color: rgb(156, 154, 154);
+}
+.linea2{
+    margin-top: 0;
+}
+/*row 3*/
+.raw3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width:410px;
+    margin-top: 20px;
+}
+.tabladeconectados{
+    border: 2px solid rgb(160, 160, 160);  
+    width: 405px;  
+    margin-bottom: 20px;
+}
+.conectados{
+    background-color: grey;;  
+    height: 40px;
+    display: flex;
+}
+#titulo {
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#num{
+    color: black;
+    border-radius: 80%;
+    background-color: rgb(199, 192, 192);
+    padding-left: 9px;
+    margin-left: 20px;
+    padding-right: 9px;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.chicosconectados{
+    padding-left: 0px;
+}
+.imagen{
+    width: 40px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+}
+.pos, .nega{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+
+.persona{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.circulos{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.pers{
+    display: flex;
+    flex: 2;
+    justify-content: space-evenly;
+}
+.nombre{
+    margin-top: 12px;
+}
+
