@@ -28,10 +28,10 @@
         <div class="row2">
             <div class="tarjetadeusuario">
                 <div class="barra">
-                    <img src="./imagenes/jane-m.jpg" alt="circulo" >
+                    <img src="./imagenes/user-circle.png" alt="circulo" >
                 </div>
                 <div class="contenido" >
-                    <h1>
+                    <h1 class="apelativo">
                         Jane Doe
                     </h1>
                     <div class="ubicacion">
@@ -48,7 +48,7 @@
                     </p>
                     <div>
                         <img src="./imagenes/gear.png" class="tornillo">
-                        <a href="#" class="editar">
+                        <a href="#" class="editar" onclick="cambiar(this)">
                             edit profile
                         </a>
                     </div>
@@ -72,29 +72,29 @@
         <div class="raw3">
             <div class="tabladeconectados">
                 <div class="conectados">
-                    <id id="num">
+                    <div class="num">
                         2
-                    </id>
+                    </div>
                     <div id="titulo">
                         Connection Request
                     </div>
                 </div>
                 <div class="chicosconectados">
-                    <div class="persona">
+                    <div class="persona1" >
                         <div class="pers">
                             <img src="./imagenes/todd-s.jpg" alt="todd" class="imagen"><span class="nombre">Todd E</span>
                         </div>
                         <div class="circulos">
-                            <img src="./imagenes/accept-circle.png" class="pos"><img src="./imagenes/close-circle.png" class="nega">
+                            <img src="./imagenes/accept-circle.png" class="pos" onclick="agregar()"><img  onclick="eliminar(this)" onclick="noConectados()"  src="./imagenes/close-circle.png" class="nega">
                         </div>
                     </div>
                     
-                    <div class="persona">
+                    <div class="persona2">
                         <div class="pers">
                             <img src="./imagenes/phil-s.jpg" alt="phil" class="imagen"><span class="nombre">Phill K</span>
                         </div>
                         <div class="circulos">
-                            <img src="./imagenes/accept-circle.png" class="pos"><img src="./imagenes/close-circle.png" class="nega">
+                            <img src="./imagenes/accept-circle.png" class="pos" onclick="agregar1()"><img onclick="eliminar1(this)" onclick="noConectados()" src="./imagenes/close-circle.png" class="nega">
                         </div>
                     </div>
                     
@@ -102,7 +102,7 @@
             </div>
             <div class="tabladeconectados">
                 <div class="conectados">
-                    <id id="num">
+                    <id class="num1">
                         +500
                     </id>
                     <div id="titulo">
@@ -147,6 +147,8 @@
 
         </div>
     </div>
+
+    <script src="./js/index.js"></script>
     
 </body>
 </html>
